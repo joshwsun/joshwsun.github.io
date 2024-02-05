@@ -1,9 +1,4 @@
 html, body {
-	/*display: flex;*/
-	/*align-items: center;*/
-	/*justify-content: center;*/
-	/*height: 50%;*/
-	/*padding: 0px;*/
 	font-family: "Segoe UI", sans-serif;
 	font-size: 1.5vw;
 	margin-left: 2.5%;
@@ -24,18 +19,12 @@ html, body {
 .flex-container {
 	display: flex;
 	margin-top: 5%;
-	/*flex-direction: row;*/
 	flex-wrap: wrap;
-	/*margin-left: 7.5%;
-	margin-right: 7.5%;*/
-	/*width: 80vw;*/
-	/*background-color: #9cdbf7;*/
 }
 
 .name-bio {
 	display: flex;
 	flex-direction: column;
-	min-width: 460px;
 	flex: 1;
 	padding: 30px;
 	background-color: #95e394;
@@ -55,9 +44,6 @@ html, body {
 	margin-left: 3%;
 	margin-top: 5%;
 	max-width:20%;
-	/*float:left;*/
-/*	object-fit: cover;*/
-	/*background-color: #9cdbf7;*/
 }
 
 .me {
@@ -81,15 +67,13 @@ html, body {
 	font-style: italic;
 }
 
-@media only screen and (max-width: 768px) {
-  .name-bio {
-		width:100%;
+@media only screen and (max-width: 800px) {
+	.flex-container {
+		flex-direction: column;
 	}
 }
 
 
 .projects {
-/*	font-size: clamp(20px, 1.5vw, 1.5vw);*/
-/*	font-family: 'MicroExtendFLF-Bold';*/
 	margin-top: 10%;
 }
