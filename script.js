@@ -1,7 +1,10 @@
-const advice_strings = [
+const quote_strings = [
   ["Of course you may be a lark, and that would be lucky. But in general pay attention to the wings, not to the sky.", "Mary Ruefle"],
-  ["It’s not what the world holds for you. It’s what you bring to it.", "L.M. Montgomery"],
+  ["It’s not what the world holds for you, it’s what you bring to it.", "L.M. Montgomery"],
   ["It is not down on any map; true places never are.", "Herman Melville"],
+  // ["And though I thought I'd done the damage I was born for, / there was still so much to step through, / so much to mar.", "Julie Carr"]
+  ["It is not down on any map; true places never are.", "Herman Melville"],
+  ['"When do we start feeling like the world belongs to us?" ... "I don\'t know," I said. "Tomorrow."', "Benjamin Alire Sáenz"],
 ];
 
 // Fisher-Yates Sorting Algorithm
@@ -13,18 +16,18 @@ function shuffle(arr) {
   return arr; 
 }; 
 
-const shuffled_advice = shuffle(advice_strings)
+const shuffled_quote = shuffle(quote_strings)
 
 function randomIndex(maxRange) {
     return Math.floor(Math.random() * (maxRange));
 }
 
-var currentIndex = randomIndex(shuffled_advice.length);
+var currentIndex = randomIndex(shuffled_quote.length);
 
-function getAdvice(){
-	currentIndex = (currentIndex + 1) % shuffled_advice.length;
-    document.getElementById("advice").innerHTML = shuffled_advice[currentIndex][0];
-    document.getElementById("by").innerHTML = shuffled_advice[currentIndex][1];
+function getQuote(){
+	currentIndex = (currentIndex + 1) % shuffled_quote.length;
+    document.getElementById("quote").innerHTML = shuffled_quote[currentIndex][0] + " -" + shuffled_quote[currentIndex][1];
+    // document.getElementById("by").innerHTML = shuffled_quote[currentIndex][1];
 }
 
-window.onload = getAdvice;
+window.onload = getQuote;

@@ -1,9 +1,10 @@
 html, body {
-	font-family: "Segoe UI", sans-serif;
-	font-size: 1.5vw;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	font-size: clamp(20px, 1.75vw, 1.75vw);
+	scroll-behavior: smooth;
+	margin: 0px;
+}
+
+:target {
+    scroll-margin-top: 70px;
 }
 
 @font-face {
@@ -16,10 +17,61 @@ html, body {
     src: url("resources/MicroExt/MicroExtendFLF.ttf");
 }
 
-.flex-container {
+.navbar {
+	display:flex;
+	font-size: clamp(20px, 1.25vw, 1.25vw);
+/*	margin-left: 2.5%;
+	margin-right: 2.5%;*/
+	background-color: white;
+	position: fixed;
+	width:100%;
+	margin:0;
+	top: 0;
+	height:60px;
+	align-items: center;
+	/*border-bottom: 1.5px solid;*/
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	z-index:1;
+}
+
+.navbar-right {
+  float: right;
+}
+
+#desk {
+	/*margin-top: 1%;*/
+	height: 50px;
+	margin-left: 1em;
+}
+
+.navbar-right {
+	margin-right: 1em;
+	margin-left: auto;
+	align-items: center;
+	display:flex;
+	flex-direction: row;
+}
+
+.main-content{
+	font-family: "optima", sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: clamp(20px, 1.75vw, 1.75vw);
+}
+
+.home{
+/*	width: 100vw;*/
 	display: flex;
-	margin-top: 5%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.name-bio-pic {
+	display: flex;
+	padding-top: 100px;
 	flex-wrap: wrap;
+/*	margin-left: 5%;
+	margin-right: 5%;*/
 }
 
 .name-bio {
@@ -27,8 +79,10 @@ html, body {
 	flex-direction: column;
 	flex: 1;
 	padding: 30px;
-	background-color: #95e394;
+	background-color: #f68e69;
 	border-radius: 20px;
+	/*margin-right: 5%;*/
+	max-width: 750px;
 }
 
 .name {
@@ -41,39 +95,68 @@ html, body {
 }
 
 .gif_me {
-	margin-left: 3%;
-	margin-top: 5%;
-	max-width:20%;
+	margin: auto;
+	max-width:250px;
 }
 
-.me {
-	border-radius: 50%;
+#me {
+	border-radius:50%;
 	min-width:125px;
 	max-width:100%;
 }
 
-.advice {
-	font-size: clamp(17px, 1.5vw, 1.5vw);
-	margin-top: 5%;
-	margin-bottom: 5px;
-	/*font-family: 'MicroExtendFLF';*/
+.quote {
+	/*font-size: clamp(17px, 1.5vw, 1.5vw);*/
+	/*margin-top: 5%;*/
+/*	margin-left: 5%;
+	margin-right: 5%;*/
+	margin-top: auto;
+	display: flex;
+	/*position:relative;*/
+	/*bottom:40px;*/
+	align-items: center;
 }
 
-#advice {
-	margin-bottom: 5px;
+#redo {
+/*	margin-top: 1em;*/
+	cursor: pointer;
 }
 
-#by {
-	font-style: italic;
+
+/*#by {
+	font-size: clamp(10px, 1.25vw, 1.25vw);
+}*/
+
+.projects {
+	height: 100vh;
+}
+
+.contact {
+	height: 100vh;
 }
 
 @media only screen and (max-width: 800px) {
-	.flex-container {
+	.main-content{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.name-bio-pic {
 		flex-direction: column;
 	}
-}
+	.main-content{
+		font-family: "optima", sans-serif;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: clamp(15px, 1.75vw, 1.75vw);
+	}
+	.gif_me {
+		margin: auto;
+		width:70%;
+	}
 
-
-.projects {
-	margin-top: 10%;
+	#me {
+		margin-top: 3%;
+		/*width:80%;*/
+	}
 }

@@ -7,26 +7,56 @@
     <title>Josh Sun</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="resources/desk2.png">
   </head>
   <body>
-    <div class="flex-container">
-    <div class="name-bio">
-      <div class="name">Josh Sun</div>
-      <div class="bio">recently graduated from CU Boulder (Spring '23). While there, he studied computer science (MS, BA) and statistics (BA), and snuck English classes into his schedule when he could. He is based in and originally from Colorado. He occasionally dances. </div>
+    <div class="navbar">
+      <a href="#"><img id="desk" src="resources/desk.png" alt="Desk"></a>
+      <!-- <div class="navbar-right"> -->
+        <!-- <a href="https://www.linkedin.com/in/joshua-sun-50398915a/" class="fa fa-linkedin-square" style="font-size:1.5em;;color:black;"></a> -->
+        <a href="#projects" style="color:black;margin-left:15px;font-family: 'MicroExtendFLF-Bold';"><u>projects</u></a> 
+        <a href="#contact" style="color:black;margin-left:15px;font-family: 'MicroExtendFLF-Bold';"><u>contact</u></a>
+        <div class="navbar-right">
+
+        </div>
+      <!-- </div> -->
     </div>
-    <div class="gif_me">
-      <img class = "me" src="resources/josh.gif" alt="GIF of Josh">
-    </div>
-    </div>
-    <div class="advice" onclick="getAdvice()">
-      <div id="advice"></div>
-      <div id="by"></div>
-    </div>
-    <div class="projects">
-      <div style="font-family:MicroExtendFLF-Bold;font-size: 35px;">Projects: </div>
-      <p>Biostatistics:</p>
-      <p>Other:</p>
-      <p style="font-size: 15px;">Website made from scratch by me, excuse the raw edges. Somewhat inspired by <a href="https://en.wikipedia.org/wiki/Heartbreak_High_(2022_TV_series)">Heartbreak High</a> poster.<br>&copy; Copyright 2024, Joshua Sun</p>
+    <div class="main-content">
+      <div class="home">
+        <div class="name-bio-pic">
+        <div class="name-bio">
+          <div class="name" >Josh Sun</div>
+          <div class="bio">is a recent graduate of CU Boulder (Spring '23). While there, he studied computer science (MS, BA) and statistics (BA), and snuck English classes into his schedule when he could. He is based in and originally from Colorado. He occasionally dances. </div>
+        </div>
+        <div class="gif_me">
+          <img id="me" src="resources/josh.gif" alt="GIF of Josh">
+        </div>
+        </div>
+        <div class="quote">
+          <p>
+            <i id="redo" class="fa fa-repeat" onclick="getQuote()"></i>
+            <div id="quote" style="margin-left:1em"></div>
+            <!-- <div id="by" style="margin-left:1em"></div> -->
+          </p>
+        </div>
+      </div>
+      <div id="projects" class="projects">
+        <div style="font-family:MicroExtendFLF-Bold;font-size: 35px;">Projects</div>
+        <br>
+        misc: 
+      </div>
+      <div id="contact" class="contact" style="position:relative;">
+        <div style="font-family:MicroExtendFLF-Bold;font-size: 35px;">Contact</div>
+        <ul>
+          <li>joshwsun (at) gmail (dot) com</li>
+          <li><a href="https://www.linkedin.com/in/joshua-sun-50398915a/" style="color:black;">LinkedIn</a></li>
+          <li>pronouns: he/him</li>
+          <li>currently city: denver, co</li>
+        </ul>
+        <div style="font-size: 15px;position:absolute;bottom:0;">Website made from scratch by me, excuse the rough edges. Inspired by <a href="https://en.wikipedia.org/wiki/Heartbreak_High_(2022_TV_series)">Heartbreak High</a>.<br>&copy; Copyright 2024, Joshua Sun</div>
+      </div>
     </div>
   </body>
 </html>
