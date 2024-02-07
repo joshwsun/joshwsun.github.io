@@ -10,10 +10,10 @@ const quote_strings = [
   ["Invisible fish swim this ghost ocean now described by waves of sand, by water-worn rock.", "Joy Harjo"],
   ["Time dripped from the faucet like a magician’s botched trick.", "Chen Chen"],
   ["The first track still almost swings. High hat and snare, even / A few bars of sax the stratosphere will singe-out soon enough.", "Tracy K. Smith"],
-  ["It snuck up on me—growing up, I mean.","Jenny Han"],
+  ["Never say no when you really want to say yes.","Jenny Han"],
   ["Birds would overthrow the cathedral towers. / I would have a magician’s hair, full of sleeves & saws", "Chen Chen"],
   ["\"No more trying to be something that I'm just—just not.\" \"What if you're trying to be somebody you are?\"", "Legally Blonde (2001)"],
-  ["far west of this here and now / awash with these azealas' purples, / pinks, and whites, these late camellia reds.", "Reginald Shepherd"],
+  ["far west of this here and now / awash with these azaleas' purples, / pinks, and whites, these late camellia reds.", "Reginald Shepherd"],
   ["Sailing toward dawn, and I was perched atop the crow's nest, being the ship's eyes.", "Kenneth Oppel"]
 ];
 
