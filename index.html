@@ -28,7 +28,7 @@
         <div class="name-bio-pic">
         <div class="name-bio">
           <div class="name" >Josh Sun</div>
-          <div class="bio">Hi! I'm a recent graduate of CU Boulder (Spring '23). While there, I studied computer science (MS, BA) and statistics (BA), and squeezed English classes into my schedule where I could. I'm based in Colorado, where I'm originally from. Outside of work, I like to go to dance class. </div>
+          <div class="bio">Hi! I'm a recent graduate of CU Boulder (Spring '23). While there, I studied computer science (MS, BA) and statistics (BA), and squeezed English classes into my schedule where I could. I'm based in Colorado, which is where I'm originally from. Outside of work, I like to go to dance class. </div>
         </div>
         <div class="gif_me">
           <img id="me" src="resources/josh.gif" alt="GIF of Josh">
@@ -47,7 +47,7 @@
       <div id="work" class="work">
         <div style="font-family:MicroExtendFLF-Bold;font-size: 35px;">Work</div>
         <br>
-        Click a project for more info
+        <div style="margin-left:1%;">Click a project for more info</div>
         <!-- CARDS  -->
         <div class="cards">
 
@@ -56,7 +56,7 @@
             <div class="container">
               <b>Biostatistics</b>
               <div id="proj1" style="display:none">
-                As a <a href="https://www.colorado.edu/lab/lisa/", style="color:black">statistics collaborator</a>, I worked with Prof. Rachael Baiduc to study associations between hearing loss and health risk factors, leading to publications <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9886989/" style="color:black">here</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/35383601/" style="color:black">here</a>. I was the primary one responsible for coding.
+                As a <a href="https://www.colorado.edu/lab/lisa/", style="color:black">statistics collaborator</a>, I worked with Prof. Rachael Baiduc to study associations between hearing loss and health risk factors, leading to publications <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9886989/" style="color:black">here</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/35383601/" style="color:black">here</a>. I was the primary coder.
                 <br><br>
                 <b>Tools: </b>R (glm, tidyverse, ggplot, & survey packages)
               </div>
@@ -69,21 +69,21 @@
               <b>Musical Influence and Genre</b>
               <!-- <button type="button" onclick='showDiv("proj2")' style='background-color:white;border:none'/>click for more info</button> -->
               <div id="proj2" style="display:none">
-                I analyzed a graph of musical influence for <a href="https://aaronclauset.github.io/courses/5352/", style="color:black">Network Analysis</a> to see how much genres mix and understand the ways genre may matter in terms of how artists influence one another.
+                I analyzed a graph of musical influence for <a href="https://aaronclauset.github.io/courses/5352/", style="color:black">Network Analysis</a> to find out how much genres mix and to understand how/if genre matters in terms of artists influencing one another.
                 <br><br>
                 <b>Tools:</b> R (igraph package)
               </div>
             </div>
           </div>
 
-          <div class="card" onclick='showDiv("proj3")'>
+          <div class="card" onclick='showDiv("proj3")' style="margin-left:1%;">
             <!-- <img src="resources/proj2.png" style="width:100%;object-fit: cover;"> -->
             <div class="container">
               <br>
-              <b>Page under construction</b> <!-- title  -->
+              <b>Under construction</b> <!-- title  -->
               <br><br>
               <div id="proj3" style="display:none">
-                <img id="desk" src="resources/desk.png" alt="Desk" style="height:2em">
+                ...
                 <!-- <br> -->
                 <!-- project description here -->
                 <!-- <br><br> -->
@@ -93,15 +93,23 @@
           </div>
 
         </div>
-        <br>
-        <div style="font-size: clamp(15px, 1.25vw, 1.25vw);">
-          Miscellaneous: 
-          <ul>
-          <li>Made <a href="https://github.com/joshwsun/joshwsun.github.io" style="color:black">the website you're looking at</a>, which is inspired by <a href="https://en.wikipedia.org/wiki/Heartbreak_High_(2022_TV_series)" style="color:black">Heartbreak High</a>. Forgive its rough edges!</li>
-          <li>Poem in <a href="https://sinetheta.net/25.html" style="color:black">Sine Theta Magazine</a></li>
-          <li>Worked in Prof. Robin Burke's <a href="https://www.that-recsys-lab.net/" style="color:black">That Recommender Systems Lab</a> researching algorithmic fairness</li>
-          </ul>
-        </div>
+        <div class="card" style="width:98%;" onclick='showDiv("misc");showDiv("misc_br");'>
+            <!-- <img src="resources/proj2.png" style="width:100%;object-fit: cover;"> -->
+            <div class="container">
+              <br>
+              <div style="text-align:center;"><b>Misc.</b></div> <!-- title  -->
+              <div id="misc_br" style="display:;">
+                <br>
+              </div>
+              <div id="misc" style="display:none">
+                  <ul>
+                    <li>Poem in <a href="https://sinetheta.net/25.html" style="color:black">Sine Theta Magazine</a></li>
+                    <li>Researched algorithmic fairness in Prof. Robin Burke's <a href="https://www.that-recsys-lab.net/" style="color:black">That Recommender Systems Lab</a></li>
+                    <li><a href="https://github.com/joshwsun/joshwsun.github.io" style="color:black">The website you're looking at</a>, which is inspired by <a href="https://en.wikipedia.org/wiki/Heartbreak_High_(2022_TV_series)" style="color:black">Heartbreak High</a>. Forgive its rough edges!</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
 
       </div>
       <div id="contact" class="contact">
