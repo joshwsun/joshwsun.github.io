@@ -16,46 +16,103 @@
       <a href="#"><img id="desk" src="resources/desk.png" alt="Desk"></a>
       <!-- <div class="navbar-right"> -->
         <!-- <a href="https://www.linkedin.com/in/joshua-sun-50398915a/" class="fa fa-linkedin-square" style="font-size:1.5em;;color:black;"></a> -->
-        <a href="#projects" style="color:black;margin-left:15px;font-family: 'MicroExtendFLF-Bold';"><u>projects</u></a> 
-        <a href="#contact" style="color:black;margin-left:15px;font-family: 'MicroExtendFLF-Bold';"><u>contact</u></a>
         <div class="navbar-right">
-
+          <a href="#work" style="color:black;margin-left:15px;font-family: 'MicroExtendFLF-Bold';"><u>work</u></a> 
+          <a href="#contact" style="color:black;margin-left:15px;font-family: 'MicroExtendFLF-Bold';"><u>contact</u></a>
         </div>
       <!-- </div> -->
     </div>
     <div class="main-content">
       <div class="home">
+      <!-- <div class="add-desk"> -->
         <div class="name-bio-pic">
         <div class="name-bio">
           <div class="name" >Josh Sun</div>
-          <div class="bio">is a recent graduate of CU Boulder (Spring '23). While there, he studied computer science (MS, BA) and statistics (BA), and snuck English classes into his schedule when he could. He is based in and originally from Colorado. He occasionally dances. </div>
+          <div class="bio">Hi! I'm a recent graduate of CU Boulder (Spring '23). While there, I studied computer science (MS, BA) and statistics (BA), and squeezed English classes into my schedule where I could. I'm based in Colorado, where I'm originally from. Outside of work, I like to go to dance class. </div>
         </div>
         <div class="gif_me">
           <img id="me" src="resources/josh.gif" alt="GIF of Josh">
         </div>
-        </div>
+      </div>
+      <div class="desk-box"><img id="desk2" src="resources/desk.png" alt="Desk"></div>
+        <!-- </div> -->
         <div class="quote">
           <p>
             <i id="redo" class="fa fa-repeat" onclick="getQuote()"></i>
-            <div id="quote" style="margin-left:1em"></div>
+            <div id="quote" style="margin-left:0.5em"></div>
             <!-- <div id="by" style="margin-left:1em"></div> -->
           </p>
         </div>
       </div>
-      <div id="projects" class="projects">
-        <div style="font-family:MicroExtendFLF-Bold;font-size: 35px;">Projects</div>
+      <div id="work" class="work">
+        <div style="font-family:MicroExtendFLF-Bold;font-size: 35px;">Work</div>
         <br>
-        misc: 
+        Click a project for more info
+        <!-- CARDS  -->
+        <div class="cards">
+
+          <div class="card" onclick='showDiv("proj1")'>
+            <img src="resources/proj1.png" style="width:100%;object-fit:scale-down;max-height:200px;">
+            <div class="container">
+              <b>Biostatistics</b>
+              <div id="proj1" style="display:none">
+                As a <a href="https://www.colorado.edu/lab/lisa/", style="color:black">statistics collaborator</a>, I worked with Prof. Rachael Baiduc to study associations between hearing loss and health risk factors, leading to publications <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9886989/" style="color:black">here</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/35383601/" style="color:black">here</a>. I was the primary one responsible for coding.
+                <br><br>
+                <b>Tools: </b>R (glm, tidyverse, ggplot, & survey packages)
+              </div>
+            </div>
+          </div>
+
+          <div class="card" onclick='showDiv("proj2")'>
+            <img src="resources/proj2.png" style="width:100%;object-fit:scale-down;max-height:200px;">
+            <div class="container">
+              <b>Musical Influence and Genre</b>
+              <!-- <button type="button" onclick='showDiv("proj2")' style='background-color:white;border:none'/>click for more info</button> -->
+              <div id="proj2" style="display:none">
+                I analyzed a graph of musical influence for <a href="https://aaronclauset.github.io/courses/5352/", style="color:black">Network Analysis</a> to see how much genres mix and understand the ways genre may matter in terms of how artists influence one another.
+                <br><br>
+                <b>Tools:</b> R (igraph package)
+              </div>
+            </div>
+          </div>
+
+          <div class="card" onclick='showDiv("proj3")'>
+            <!-- <img src="resources/proj2.png" style="width:100%;object-fit: cover;"> -->
+            <div class="container">
+              <br>
+              <b>Page under construction</b> <!-- title  -->
+              <br><br>
+              <div id="proj3" style="display:none">
+                <img id="desk" src="resources/desk.png" alt="Desk" style="height:2em">
+                <!-- <br> -->
+                <!-- project description here -->
+                <!-- <br><br> -->
+                <!-- <b>Tools: </b> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <br>
+        <div style="font-size: clamp(15px, 1.25vw, 1.25vw);">
+          Miscellaneous: 
+          <ul>
+          <li>Made <a href="https://github.com/joshwsun/joshwsun.github.io" style="color:black">the website you're looking at</a>, which is inspired by <a href="https://en.wikipedia.org/wiki/Heartbreak_High_(2022_TV_series)" style="color:black">Heartbreak High</a>. Forgive its rough edges!</li>
+          <li>Poem in <a href="https://sinetheta.net/25.html" style="color:black">Sine Theta Magazine</a></li>
+          <li>Worked in Prof. Robin Burke's <a href="https://www.that-recsys-lab.net/" style="color:black">That Recommender Systems Lab</a> researching algorithmic fairness</li>
+          </ul>
+        </div>
+
       </div>
-      <div id="contact" class="contact" style="position:relative;">
+      <div id="contact" class="contact">
         <div style="font-family:MicroExtendFLF-Bold;font-size: 35px;">Contact</div>
         <ul>
           <li>joshwsun (at) gmail (dot) com</li>
           <li><a href="https://www.linkedin.com/in/joshua-sun-50398915a/" style="color:black;">LinkedIn</a></li>
           <li>pronouns: he/him</li>
-          <li>currently city: denver, co</li>
+          <li>current city: denver, colorado, usa</li>
         </ul>
-        <div style="font-size: 15px;position:absolute;bottom:0;">Website made from scratch by me, excuse the rough edges. Inspired by <a href="https://en.wikipedia.org/wiki/Heartbreak_High_(2022_TV_series)">Heartbreak High</a>.<br>&copy; Copyright 2024, Joshua Sun</div>
+        <div style="font-size: 15px;margin-top: auto;">&copy; 2024, Joshua Sun</div>
       </div>
     </div>
   </body>
