@@ -14,7 +14,8 @@ const quote_strings = [
   ["Birds would overthrow the cathedral towers. / I would have a magician’s hair, full of sleeves & saws", "Chen Chen"],
   ["\"No more trying to be something that I'm just—just not.\" \"What if you're trying to be somebody you are?\"", "Legally Blonde (2001)"],
   ["far west of this here and now / awash with these azaleas' purples, / pinks, and whites, these late camellia reds.", "Reginald Shepherd"],
-  ["Sailing toward dawn, and I was perched atop the crow's nest, being the ship's eyes.", "Kenneth Oppel"]
+  ["Sailing toward dawn, and I was perched atop the crow's nest, being the ship's eyes.", "Kenneth Oppel"],
+  [" ... and to have it all, you have to risk it all.", "Jenny Han"]
 ];
 
 // Fisher-Yates Sorting Algorithm
