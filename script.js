@@ -1,7 +1,7 @@
 // list of quote, author
 const quote_strings = [
   ["... even if you can’t ever make it off the ground, say you are a turkey—well, that is an interesting thing.", "Mary Ruefle"],
-  ["It’s not what the world holds for you, it’s what you bring to it.", "Anne Shirley"],
+  ["It’s not what the world holds for you, it’s what you bring to it.", "Anne of Green Gables: The Sequel (1987)"],
   ["It is not down on any map; true places never are.", "Herman Melville"],
   ['"When do we start feeling like the world belongs to us?" ... "I don\'t know," I said. "Tomorrow."', "Benjamin Alire Sáenz"],
   ["But the wind always swept my words away like cloud shadows, as if it mattered more that I said them, than who heard them.", "Lauren Wolk"],
