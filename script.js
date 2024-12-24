@@ -1,6 +1,6 @@
 // list of quote, author
 const quote_strings = [
-  ["... even if you can’t ever make it off the ground, say you are a turkey—well, that is an interesting thing.", "Mary Ruefle"],
+  ["Even if you can’t ever make it off the ground, say you are a turkey—well, that is an interesting thing.", "Mary Ruefle"],
   ["It’s not what the world holds for you, it’s what you bring to it.", "Anne of Green Gables: The Sequel (1987)"],
   ["It is not down on any map; true places never are.", "Herman Melville"],
   ['"When do we start feeling like the world belongs to us?" ... "I don\'t know," I said. "Tomorrow."', "Benjamin Alire Sáenz"],
@@ -15,8 +15,9 @@ const quote_strings = [
   ["\"No more trying to be something that I'm just—just not.\" \"What if you're trying to be somebody you are?\"", "Legally Blonde (2001)"],
   ["far west of this here and now / awash with these azaleas' purples, / pinks, and whites, these late camellia reds.", "Reginald Shepherd"],
   ["Sailing toward dawn, and I was perched atop the crow's nest, being the ship's eyes.", "Kenneth Oppel"],
-  [" ... and to have it all, you have to risk it all.", "Jenny Han"],
-  ["I can no longer remember / the being afraid, only that it came to an end.", "Kaveh Akbar"]
+  ["And to have it all, you have to risk it all.", "Jenny Han"],
+  ["I can no longer remember / the being afraid, only that it came to an end.", "Kaveh Akbar"],
+  ["Courage is not simply one of the virtues but the form of every virtue at the testing point, which means at the point of highest reality.", "C.S. Lewis"]
 ];
 
 // Fisher-Yates Sorting Algorithm
