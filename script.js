@@ -16,7 +16,8 @@ const quote_strings = [
   ["Sailing toward dawn, and I was perched atop the crow's nest, being the ship's eyes.", "Kenneth Oppel"],
   ["And to have it all, you have to risk it all.", "Jenny Han"],
   ["I can no longer remember / the being afraid, only that it came to an end.", "Kaveh Akbar"],
-  ["Courage is not simply one of the virtues but the form of every virtue at the testing point, which means at the point of highest reality.", "C.S. Lewis"]
+  ["Courage is not simply one of the virtues but the form of every virtue at the testing point, which means at the point of highest reality.", "C.S. Lewis"],
+  ["Things change, whether you want them to or not. So maybe I'll change, too.", "Jenny Han"]
 ];
 
 // Fisher-Yates Sorting Algorithm
