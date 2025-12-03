@@ -18,7 +18,8 @@ const quote_strings = [
   ["I can no longer remember / the being afraid, only that it came to an end.", "Kaveh Akbar"],
   ["Courage is not simply one of the virtues but the form of every virtue at the testing point, which means at the point of highest reality.", "C.S. Lewis"],
   ["Things change, whether you want them to or not. So maybe I'll change, too.", "Jenny Han"],
-  ["I don't know what lies around the bend, but I'm going to believe that the best does.", "L.M. Montgomery"]
+  ["I don't know what lies around the bend, but I'm going to believe that the best does.", "L.M. Montgomery"],
+  ["Be much braver, put yourself forward and get beyond your comfort zone ... To do this, of course, you need a core—a definition of who you are—that stands, regardless of the opinion of others, including those you admire.", "Fern Hunt"]
 ];
 
 // Fisher-Yates Sorting Algorithm
