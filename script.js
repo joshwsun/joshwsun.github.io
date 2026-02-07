@@ -19,7 +19,8 @@ const quote_strings = [
   ["Courage is not simply one of the virtues but the form of every virtue at the testing point, which means at the point of highest reality.", "C.S. Lewis"],
   ["Things change, whether you want them to or not. So maybe I'll change, too.", "Jenny Han"],
   ["I don't know what lies around the bend, but I'm going to believe that the best does.", "L.M. Montgomery"],
-  ["Be much braver, put yourself forward and get beyond your comfort zone ... To do this, of course, you need a core—a definition of who you are—that stands, regardless of the opinion of others, including those you admire.", "Fern Hunt"]
+  ["Be much braver, put yourself forward and get beyond your comfort zone ... To do this, of course, you need a core—a definition of who you are—that stands, regardless of the opinion of others, including those you admire.", "Fern Hunt"],
+  ["Your real job is that if you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else", "Toni Morrison"]
 ];
 
 // Fisher-Yates Sorting Algorithm
