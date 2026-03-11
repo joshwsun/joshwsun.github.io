@@ -219,6 +219,16 @@ html, body {
 
 }
 
+.calendar {
+	font-size: clamp(17px, 1.2vw, 1.2vw);
+	display: flex;
+	padding-top: 90px;
+	flex-wrap: wrap;
+	max-width:800px;
+/*	margin-left: 5%;
+	margin-right: 5%;*/
+}
+
 @media only screen and (max-width: 400px) {
 	.navbar {
 		font-size: clamp(15px, 1.25vw, 1.25vw);
