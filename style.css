@@ -222,7 +222,7 @@ html, body {
 .calendar {
 	font-size: clamp(17px, 1.2vw, 1.2vw);
 	display: flex;
-	padding-top: 90px;
+	padding-top: 70px;
 	flex-wrap: wrap;
 	max-width:800px;
 /*	margin-left: 5%;
