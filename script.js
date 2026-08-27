@@ -19,7 +19,8 @@ const quote_strings = [
   ["Things change, whether you want them to or not. So maybe I'll change, too.", "Jenny Han"],
   ["I don't know what lies around the bend, but I'm going to believe that the best does.", "L.M. Montgomery"],
   ["Be much braver, put yourself forward and get beyond your comfort zone ... To do this, of course, you need a core—a definition of who you are—that stands, regardless of the opinion of others, including those you admire.", "Fern Hunt"],
-  ["Your real job is that if you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else", "Toni Morrison"]
+  ["Your real job is that if you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else", "Toni Morrison"],
+  ["Neither of us said anything. I felt small and insignificant and inadequate. I hated feeling that way. I was going to stop feeling that way. <i>I was going to stop.</i>", "Benjamin Alire Sáenz"]
 ];
 
 // Fisher-Yates Sorting Algorithm
