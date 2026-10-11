@@ -22,7 +22,8 @@ const quote_strings = [
   ["Your real job is that if you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else.", "Toni Morrison"],
   ["Neither of us said anything. I felt small and insignificant and inadequate. I hated feeling that way. I was going to stop feeling that way. <i>I was going to stop.</i>", "Benjamin Alire Sáenz"],
   ["... you can try a bit of this, you can do this with your life, or that, but at the end of the day, what's your contribution? What's your contribution to others?", "Angelina Jolie"],
-  ["Every artist has thousands of bad drawings in them and the only way to get rid of them is to draw them out.", "Chuck Jones"]
+  ["Every artist has thousands of bad drawings in them and the only way to get rid of them is to draw them out.", "Chuck Jones"],
+  ["I have no responsibility to be like they expect me to be. It's their mistake, not my failing.", "Richard Feynman"]
 ];
 
 // Fisher-Yates Sorting Algorithm
